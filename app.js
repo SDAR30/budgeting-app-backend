@@ -13,4 +13,8 @@ app.get("/", (req, res) => {
   res.send("Basic Express App - HOME");
 });
 
+app.get("/*",(req,res)=>{
+  res.status(404).send("PAGE NOT FOUND!!! !!!")
+})
+
 module.exports = app;
