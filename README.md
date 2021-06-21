@@ -2,6 +2,13 @@
 
 A backend API using express, performs full CRUD on a model for transactions, using RESTful routes, connecting to a frontend React app.
 
+
+## Instructions to run this application locally
+
+1) use ```git clone https://github.com/SDAR30/budgeting-app-backend.git``` to clone repository locally.
+2) Inside directory, run ```npm install``` to install dependencies. 
+3) Run ```npm start``` or ```node server.js``` to start server locally on http://localhost:3001
+
 ## RESTful routes
 
 |  #  | Action  |        URL        | HTTP Verb |    CRUD    |                  Description                   |
@@ -18,6 +25,8 @@ A backend API using express, performs full CRUD on a model for transactions, usi
 - Frontend deployed on Netlify: https://budgeting-frontend.netlify.app/
 
 ---
+
+- Frontend Github repository: https://github.com/SDAR30/budgeting-app-frontend/
 
 ### Libraries Used
 
