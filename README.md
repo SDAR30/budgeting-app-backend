@@ -28,6 +28,8 @@ A backend API using express, performs full CRUD on a model for transactions, usi
 
 - Frontend Github repository: https://github.com/SDAR30/budgeting-app-frontend/
 
+- Project Description: https://github.com/joinpursuit/budgeting-app-project-prompt
+
 ### Libraries Used
 
 - Express
