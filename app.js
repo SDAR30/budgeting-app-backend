@@ -6,9 +6,10 @@ const app = express();
 app.use(express.json()); //adds "body" to the text
 app.use(cors());
 
-app.use((req,res,next)=>{
-  next();
-})
+// for logging
+// app.use((req,res,next)=>{
+//   next();
+// })
 
 app.use("/transactions", transactionsController);
 

@@ -11,7 +11,7 @@ transactions.get("/:index",(req,res)=>{
     transaction ? res.json(transaction) : res.redirect("/No-page-here")
 })
 
-transactions.post("/new", (req,res)=>{
+transactions.post("/", (req,res)=>{
   const {body} = req;
   transactionArray.push(body);
   const newEntry = transactionArray[transactionArray.length-1];
